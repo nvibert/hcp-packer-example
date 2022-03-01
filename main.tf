@@ -20,6 +20,6 @@ resource "aws_instance" "app_server" {
   ami           = data.hcp_packer_image.ubuntu_us_east_2.cloud_image_id
   instance_type = "t2.micro"
   tags = {
-    Name = "Learn-HCP-Packer"
+    Name = "Learn-HCP-Packer-Nico"
   }
 }
